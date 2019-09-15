@@ -8,8 +8,6 @@ class Scraper
   
   def get_page
     Nokogiri::HTML(open("http://learn-co-curriculum.github.io/site-for-scraping/courses"))
-    
-
   end 
   
   def get_courses
